@@ -5,44 +5,114 @@
 }
 
 body {
-    background: url('../images/wallpaper1.jpg') repeat;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    overflow: auto;
+    background: url('../images/dust_scratches.png') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
-.container {
-    background-color: white;
-    width: 960px;
-    margin: 0 auto;
-    clear: both;
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
 }
 
-.headblock {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-    background-color: cornflowerblue;
-    border-bottom: 200px;
+header {
+    background: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
 }
 
-.headername {
-    width: auto;
-    color: black;
-    float: left;
+header h1 {
+    display: inline-block;
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
 }
 
-.nav {
+nav {
     float: right;
-}
-ul {
-    list-style: none;
-    display: block;
+    width: 45%;
+    text-align: center;
+    padding: 25px;
 }
 
 nav ul li {
-    float: right;
-    color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-left: 1px solid gray;
+    display: inline;
 }
+
+a {
+    color: rgb(167, 166, 166);
+    padding: 10px 20px;
+    border-right: 1px solid rgb(211, 211, 211);
+    text-decoration: none;
+}
+
+img {
+    float: left;
+    padding: 0px 20px 5px 0px;
+}
+
+p {
+    line-height: 30px;
+}
+
+footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    padding: 40px;
+}
+
+form {
+    display: block;
+    margin-bottom: 40px;
+}
+
+form button {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input {
+    width: 33%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contentbox {
+    background: white;
+    padding: 0px 20px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+.contentbox h2{
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+.portitem {
+    width: 45%;
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.portitem:nth-last-child(even) {
+    float: right;
+}
+
+#textbox {
+    display: table;
+}
+
