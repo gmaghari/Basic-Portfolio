@@ -56,6 +56,10 @@ a:hover {
     color: blue;
 }
 
+.row a {
+    border-right: none;
+}
+
 img {
     width: 200px;
     padding: 0px 20px 5px 0px;
